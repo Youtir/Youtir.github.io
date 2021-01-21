@@ -1,564 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  
-  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>
-    Moroccan Stock Market Tracker
-  </title>
-  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-  <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css"
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  <!-- CSS Files -->
-  <link href="./assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  
-</head>
-
-<body class="">
-  <div>
-    <!--<div class="sidebar" data-color="purple" data-background-color="azure" data-image="../assets/img/sidebar-1.jpg">
-      
-        Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
-
-        Tip 2: you can also add an image using data-image tag
-    
-      <div class="logo"><a href="#" class="simple-text logo-normal">Moroccan Stock<br>Market Tracker</a>
-          
-        </a></div>
-      <div class="sidebar-wrapper">
-        <ul class="nav">
-          <li class="nav-item active  ">
-            <a class="nav-link" href="./dashboard.html">
-              <i class="material-icons">dashboard</i>
-              <p>Dashboard</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./user.html">
-              <i class="material-icons">person</i>
-              <p>User Profile</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
-              <i class="material-icons">content_paste</i>
-              <p>Table List</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./typography.html">
-              <i class="material-icons">library_books</i>
-              <p>Typography</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./icons.html">
-              <i class="material-icons">bubble_chart</i>
-              <p>Icons</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./map.html">
-              <i class="material-icons">location_ons</i>
-              <p>Maps</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./notifications.html">
-              <i class="material-icons">notifications</i>
-              <p>Notifications</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./rtl.html">
-              <i class="material-icons">language</i>
-              <p>RTL Support</p>
-            </a>
-          </li>
-          <li class="nav-item active-pro ">
-            <a class="nav-link" href="./upgrade.html">
-              <i class="material-icons">unarchive</i>
-              <p>Upgrade to PRO</p>
-            </a>
-          </li>
-        </ul>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youssef Atir</title>
+    <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Portfolio</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">À Propos</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Projets</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experiences</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div> -->
-    <div class="main-panel">
-      <!-- Navbar -->
-      <!--<div class="collapse navbar-collapse justify-content-end">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="material-icons">notifications</i>
-                  <span class="notification">5</span>
-                  <p class="d-lg-none d-md-block">
-                    Some Actions
-                  </p>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Mike John responded to your email</a>
-                  <a class="dropdown-item" href="#">You have 5 new tasks</a>
-                  <a class="dropdown-item" href="#">You're now friend with Andrew</a>
-                  <a class="dropdown-item" href="#">Another Notification</a>
-                  <a class="dropdown-item" href="#">Another One</a>
-                </div>
-              </li>
-            </ul>
-          </div>-->
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="images/youssef.jpg" alt="Image"/></a></div>
+          <div class="h2 title">Youssef Atir</div>
+          <p class="category text-white">Ingénieur en Génie des Données et Veille</p><a class="btn btn-primary" href="./images/CV_YoussefATIR.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/itsyoussef.atir" target="_blank" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://github.com/Youtir" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.linkedin.com/in/youssefatir/" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon"  target="_blank" href="https://www.instagram.com/youssef_atir/" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+        </div>
+      </div>
     </div>
-    </nav>
-    <!-- End Navbar -->
-    <div class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-2 align-middle text-info h2 text-center">
-            <br><b>Moroccan Stock<br>Market Tracker <br> <i class="material-icons" style="font-size:7rem;">insights</i> </b>
-            </a>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <div class="card card-stats">
-              <div class="card-header card-header-info card-header-icon">
-                <div class="card-icon">
-                  MSI20
-                </div>
-                <p class="card-category">Cours</p>
-                <h3 id="MSIc" class="card-title">
-                </h3>
-                <p class="card-category">Val</p>
-                <h3 id="MSIv" class="card-title">
-                </h3>
-                <p class="card-category">Evolution</p>
-                <h3 id="MSIe" class="card-title">
-                </h3>
-              </div>
-              <div class="card-footer">
-                <div class="stats">
-                  <i class="material-icons">access_time</i> Il y a 15 Minutes..
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <div class="card card-stats">
-              <div class="card-header card-header-info card-header-icon">
-                <div class="card-icon">
-                  MASI Flottant
-                </div>
-                <p class="card-category">Cours</p>
-                <h3 id="MASIc" class="card-title">
-                </h3>
-                <p class="card-category">Val</p>
-                <h3 id="MASIv" class="card-title">
-                </h3>
-                <p class="card-category">Evolution</p>
-                <h3 id="MASIe" class="card-title">
-                </h3>
-              </div>
-              <div class="card-footer">
-                <div class="stats">
-                  <i class="material-icons">access_time</i> Il y a 15 Minutes..
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <div class="card card-stats">
-              <div class="card-header card-header-info card-header-icon">
-                <div class="card-icon">
-                  Casablanca ESG 10
-                </div>
-                <p class="card-category">Cours</p>
-                <h3 id="Casac" class="card-title">
-                </h3>
-                <p class="card-category">Val</p>
-                <h3 id="Casav" class="card-title">
-                </h3>
-                <p class="card-category">Evolution</p>
-                <h3 id="Casae" class="card-title">
-                </h3>
-              </div>
-              <div class="card-footer">
-                <div class="stats">
-                  <i class="material-icons">access_time</i> Il y a 15 Minutes..
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <div class="card card-stats">
-              <div class="card-header card-header-success card-header-icon">
-                <div class="card-icon">
-                  Volume Global
-                </div>
-                <p class="card-category">(MAD)</p>
-                <br>
-                <h3 id="ValG" class="card-title">
-                </h3>
-              </div>
-            </div>
-
-            <div class="card card-stats">
-              <div class="card-header card-header-success card-header-icon">
-                <div class="card-icon">
-                  Capitalisation Globale
-                </div>
-                <p class="card-category">(MAD)</p>
-                <br>
-                <h3 id="CapG" class="card-title">
-                </h3>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg-2 align-middle h3 text-success text-center">
-            <br><i class="material-icons" style="font-size: 7rem;">today</i><br>
-            Session date:<br><span id="horodate"></span>
-            </a></div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="card card-chart">
-              <div class="card-header card-header-warning ">
-                <div class="ct-chart " id="websiteViewsChart"></div>
-              </div>
-              <div class="card-body">
-                <h4 class="card-title"><i class="material-icons">leaderboard</i> 10 instruments plus actifs</h4>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> Il y a 15 Minutes..
-                  </div>
-                </div>
-              </div>
-            </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="card-body">
+            <div class="h4 text-center mt-0 title">À Propos</div>
+            <p class="text-center" style="padding-top: 15px;">Je suis un jeune élève ingénieur en génie des données et veille, passionné de Business Intelligence, Data Science et de Knowledge Management avec une envie ardente d'apprendre et d'agir efficacement dans mon environnement.</p>
           </div>
         </div>
-
+        
       </div>
-          <div class="row">
-            <div class="col-lg-12 col-md-12">
-              <div class="card">
-                <div class="card-header card-header-tabs card-header-info">
-                  <div class="nav-tabs-navigation">
-                    <div class="nav-tabs-wrapper">
-                      <span class="nav-tabs-title">Les 5 plus fortes </span>
-                      <ul class="nav nav-tabs" data-tabs="tabs">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#profile" data-toggle="tab">
-                            <i class="material-icons">trending_up</i> hausses
-                            <div class="ripple-container"></div>
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#messages" data-toggle="tab">
-                            <i class="material-icons">trending_down</i>baisses
-                            <div class="ripple-container"></div>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <div class="tab-content">
-                    <div class="tab-pane active" id="profile">
-                      <table class="table table-hover ">
-                        <thead class="card-header-success">
-                          <th>Instrument</th>
-                          <th>Cours</th>
-                          <th>Différence</th>
-                          <th>Différence (%)</th>
-                        </thead>
-                        <tbody id="hausses">
-
-                        </tbody>
-                      </table>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                      <table class="table table-hover">
-                        <thead class="card-header-danger">
-                          <th>Instrument</th>
-                          <th>Cours</th>
-                          <th>Différence</th>
-                          <th>Différence (%)</th>
-                        </thead>
-                        <tbody id="baisses">
-
-                        </tbody>
-                      </table>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-          
+    </div>
+  </div>
+</div>
+<div class="section" id="skill" style="padding-top: 20px;"> 
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Compétences</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
         <div class="row">
-
-          <div class="col-lg-12">
-            <div class="card card-chart">
-              <div class="card-header card-header-success">
-                <div class="ct-chart" id="dailySalesChart"></div>
-              </div>
-              <div class="card-body">
-                <h4 class="card-title"><i class="material-icons">leaderboard</i>  10 Meilleures capitalisations</h4>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> Il y a 15 Minutes..
-                  </div>
-                </div>
-              </div>
-            </div>
-
-        </div>
-        </div>
-      </div>
-      <!--<footer class="footer">
-        <div class="container-fluid">
-          <nav class="float-left">
+          <div class="col-md-3">
+            <b>Gestion de contenu d'entreprise</b>
             <ul>
-              <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
-                </a>
-              </li>
-              <li>
-                <a href="https://creative-tim.com/presentation">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license">
-                  Licenses
-                </a>
-              </li>
+              <li>Microsoft SharePoint</li>
+              <li>Alfresco</li>
+              <li>Activiti</li>
+              <li>Maarch</li>
             </ul>
-          </nav>
-          <div class="copyright float-right">
-            &copy;
-            <script>
-              document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+          </div>
+          <div class="col-md-3">
+            <b>Gestion des bases de données</b>
+            <ul>
+              <li>MongoDB</li>
+              <li>Elastic Search</li>
+              <li>Ecosysteme Hadoop</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <b>Intelligence Artificielle</b>
+            <ul>
+              <li>Machine Learning : SciKit-Learn</li>
+              <li>Deep Learning : TensorFlow,  Keras</li>
+              <li>NLP : NLTK, Spacy</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <b>Management de Projet</b>
+            <ul>
+              <li>Frameworks Agile</li>
+              <li>Management des risques</li>
+              <li>Scala</li>
+              <li>Matlab</li>
+            </ul>
           </div>
         </div>
-      </footer>-->
+        <div class="row">
+          
+          <div class="col-md-3">
+            <b>Business Intelligence</b>
+            <ul>
+              <li>Power BI</li>
+              <li>Tableau</li>
+              <li>Qlik Sense</li>
+              <li>Microsoft SQL Server</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <b>Veille</b>
+            <ul>
+              <li>InoReader</li>
+              <li>Feedly</li>
+              <li>KBCrawl</li>
+              <li>Scrapy</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <b>Services Cloud</b>
+            <ul>
+              <li>Microsoft Azure</li>
+              <li>Oracle Cloud</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <b>Langages de Programmation</b>
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Scala</li>
+              <li>Matlab</li>
+            </ul>
+          </div>
+        </div>
+        
+          
+        </div>
+      </div>
     </div>
   </div>
-  <!--<div class="fixed-plugin">
-    <div class="dropdown show-dropdown">
-      <a href="#" data-toggle="dropdown">
-        <i class="fa fa-cog fa-2x"> </i>
-      </a>
-      <ul class="dropdown-menu">
-        <li class="header-title"> Sidebar Filters</li>
-        <li class="adjustments-line">
-          <a href="javascript:void(0)" class="switch-trigger active-color">
-            <div class="badge-colors ml-auto mr-auto">
-              <span class="badge filter badge-purple" data-color="purple"></span>
-              <span class="badge filter badge-azure" data-color="azure"></span>
-              <span class="badge filter badge-green" data-color="green"></span>
-              <span class="badge filter badge-warning" data-color="orange"></span>
-              <span class="badge filter badge-danger" data-color="danger"></span>
-              <span class="badge filter badge-rose active" data-color="rose"></span>
+</div>
+<div class="section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Projets Académiques et Personnels</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/Youtir/Pharmaceutical-Assistance-Chatbot-PharmaBot" target="_blank">
+                  <figure class="cc-effect"><img src="images/projet-bot.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">ChatBot d’assistance pharmaceutique PharmaBot</div>
+                      <p>NLTK - Scikit Learn - Flask - Microsoft Azure</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/Youtir/Sentiments_Analysis_Darija_Tweets/blob/main/Sentiments_Analysis_Darija_Tweets.ipynb" target="_blank">
+                  <figure class="cc-effect"><img src="images/Sentiment-Analysis.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4" style="margin-top: 80px;">Analyse des sentiments à partir de commentaires en Darija</div>
+                      <p>Projet dans le cadre du Hackathon UmojaHack avec une équipe de 4 personnes</p>
+                      <p>Python - Regex - NLTK - Scikit Learn</p>
+                    </figcaption>
+                  </figure></a></div>
             </div>
-            <div class="clearfix"></div>
-          </a>
-        </li>
-        <li class="header-title">Images</li>
-        <li class="active">
-          <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-1.jpg" alt="">
-          </a>
-        </li>
-        <li>
-          <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-2.jpg" alt="">
-          </a>
-        </li>
-        <li>
-          <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-3.jpg" alt="">
-          </a>
-        </li>
-        <li>
-          <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-4.jpg" alt="">
-          </a>
-        </li>
-        <li class="button-container">
-          <a href="https://www.creative-tim.com/product/material-dashboard" target="_blank" class="btn btn-primary btn-block">Free Download</a>
-        </li>-->
-  <!-- <li class="header-title">Want more components?</li>
-            <li class="button-container">
-                <a href="https://www.creative-tim.com/product/material-dashboard-pro" target="_blank" class="btn btn-warning btn-block">
-                  Get the pro version
-                </a>
-            </li> 
-        <li class="button-container">
-          <a href="https://demos.creative-tim.com/material-dashboard/docs/2.1/getting-started/introduction.html" target="_blank" class="btn btn-default btn-block">
-            View Documentation
-          </a>
-        </li>
-        <li class="button-container github-star">
-          <a class="github-button" href="https://github.com/creativetimofficial/material-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-        </li>
-        <li class="header-title">Thank you for 95 shares!</li>
-        <li class="button-container text-center">
-          <button id="twitter" class="btn btn-round btn-twitter"><i class="fa fa-twitter"></i> &middot; 45</button>
-          <button id="facebook" class="btn btn-round btn-facebook"><i class="fa fa-facebook-f"></i> &middot; 50</button>
-          <br>
-          <br>
-        </li>
-      </ul>-->
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/Youtir/DeepLearningModel-CNN-ForBeesImagesClassification/blob/master/Na%C3%AFve%20Bees_%20Deep%20Learning%20with%20Images.ipynb" target="_blank">
+                  <figure class="cc-effect"><img src="images/project-cnn.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4" style="margin-top: 100px;">Modèle de Deep Learning pour la classification des abeilles et des bourdons</div>
+                      <p>Python - TensorFlow</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="./images/carto.pdf" target="_blank">
+                  <figure class="cc-effect"><img src="images/projet-carto.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Projet de Cartographie</div>
+                      <p>Gephi - Google OpenRefine - Table2Net - Python</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
   </div>
+</div>
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Expériences Professionnelles</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500" style="padding-right: 0px;">
+          <img src="images/sanlam.png" alt="Image" style="width:100%; height:100%;">
+          </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"><b>Groupe Sanlam : Août – Septembre 2020</b></div>
+            <p><ul>
+              <li>Conception, réalisation et implémentation d’une plateforme collaborative SharePoint pour le Département Process et Opérations de Sanlam Pan Africa.</li>
+              <li>Rédaction des documents de management et de suivi du projet.</li>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500" style="padding-right: 0px;">
+          
+            <img src="images/ihm.png" alt="Image" style="width:100%; height:100%;">
+          
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"><b>IHM TECHNOLOGIES : JUILLET 2019</b></div>
+            <p><ul>
+              <li>Numérisation du fonds documentaire de l’agence urbaine de Marrakech.</li>
+              <li>Mise en place d’une solution ECM destinée à cette agence.</li>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js"></script>
-  <script src="./assets/js/core/popper.min.js"></script>
-  <script src="./assets/js/core/bootstrap-material-design.min.js"></script>
-  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  
-  <script src="./assets/js/plugins/moment.min.js"></script>
-  <!--  Plugin for Sweet Alert -->
-  <script src="./assets/js/plugins/sweetalert2.js"></script>
-  <!-- Forms Validations Plugin -->
-  <script src="./assets/js/plugins/jquery.validate.min.js"></script>
-  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
-  <script src="./assets/js/plugins/jquery.bootstrap-wizard.js"></script>
-  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-  <script src="./assets/js/plugins/bootstrap-selectpicker.js"></script>
-  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
-  <script src="./assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
-  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
-  <script src="./assets/js/plugins/jquery.dataTables.min.js"></script>
-  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
-  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-  <script src="./assets/js/plugins/jasny-bootstrap.min.js"></script>
-  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
-  <script src="./assets/js/plugins/fullcalendar.min.js"></script>
-  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
-  <script src="./assets/js/plugins/jquery-jvectormap.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js"></script>
-  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
-  <!-- Library for adding dinamically elements -->
-  <script src="./assets/js/plugins/arrive.min.js"></script>
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <!-- Chartist JS -->
-  <script src="./assets/js/plugins/chartist.min.js"></script>
-  <!--  Notifications Plugin    -->
-  <script src="./assets/js/plugins/bootstrap-notify.js"></script>
-  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages et>-->
-  <script src="./assets/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
-  <!-- Material Dashboard DEMO methods, don't include it in your project! -->
-  <script src="./assets/demo/demo.js"></script>
+</div>
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title"> Éducation</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500" style="padding-right: 0px;">
+          <img src="images/esi.jpg" alt="Image" style="width:100%; height:100%;">
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Cycle d'ingénierie en Génie des Données et Veille</div>
+            <p class="category">Ecole des sciences de l'information</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500" style="padding-right: 0px;">
+          <img src="images/min.png" alt="Image" style="width:100%; height:100%;">
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">CLASSES  PRÉPARATOIRES MP</div>
+            <p class="category">CPGE Salmane Al Farissi</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500" style="padding-right: 0px;">
+          <img src="images/min.png" alt="Image" style="width:100%; height:100%;">
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Baccalauréat Sciences Physiques</div>
+            <p class="category">Ecole Al Imaniate</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-
-  <script>
-
-    const url = "https://moroccan-stock-market-api.herokuapp.com/all";
-
-    getvalue();
-    async function getData() {
-      const response = await fetch(url);
-      const data = await response.json();
-      console.log(data);
-      return { data };
-    };
-
-    async function convert(data) {
-      var lab = [];
-      var val = [];
-      for (var i = 0; i < data.length; i++) {
-        lab[i] = data[i].name;
-        val[i] = parseFloat(data[i].Valeur.replace(',', '.').replaceAll(/\s/g, ''));
-      }
-      // console.log(lab)
-      return [lab, val];
-    }
-
-
-    async function getvalue() {
-      const res = await getData();
-      const obj = await res.data;
-      const MSI = obj.indices[0];
-      document.getElementById("MSIc").innerHTML = MSI.cours;
-      document.getElementById("MSIv").innerHTML = MSI.lbvar;
-      document.getElementById("MSIe").innerHTML = MSI.evolution;
-      const MASI = obj.indices[1];
-      document.getElementById("MASIc").innerHTML = MASI.cours;
-      document.getElementById("MASIv").innerHTML = MASI.lbvar;
-      document.getElementById("MASIe").innerHTML = MASI.evolution;
-      const Casa = obj.indices[2];
-      document.getElementById("Casac").innerHTML = Casa.cours;
-      document.getElementById("Casav").innerHTML = Casa.lbvar;
-      document.getElementById("Casae").innerHTML = Casa.evolution;
-      const ValG = obj.Volume["volume global"];
-      document.getElementById("ValG").innerHTML = ValG;
-      const CapG = obj.Capitalisation["Capitalisation en MAD"];
-      document.getElementById("CapG").innerHTML = CapG;
-
-      const horodate = obj.horodateur
-      document.getElementById("horodate").innerHTML = horodate;
-      const hausses = obj.variations.pfhausses
-      const table1 = document.getElementById("hausses");
-      hausses.forEach(item => {
-        let row = table1.insertRow();
-        let instru = row.insertCell(0);
-        instru.innerHTML = item.instrument;
-        let cours = row.insertCell(1);
-        cours.innerHTML = item.cours;
-        let difference = row.insertCell(2);
-        difference.innerHTML = item.difference;
-        let diff_percent = row.insertCell(3);
-        diff_percent.innerHTML = item.diff_percent;
-      });
-      const baisses = obj.variations.pfbaisses
-      const table2 = document.getElementById("baisses");
-      baisses.forEach(item => {
-        let row = table2.insertRow();
-        let instru = row.insertCell(0);
-        instru.innerHTML = item.instrument;
-        let cours = row.insertCell(1);
-        cours.innerHTML = item.cours;
-        let difference = row.insertCell(2);
-        difference.innerHTML = item.difference;
-        let diff_percent = row.insertCell(3);
-        diff_percent.innerHTML = item.diff_percent;
-      })
-
-      const [lab, val] = await convert(obj.Volume.Instruments);
-      console.log(lab);
-      console.log(val);
-
-      const [lab1, val1] = await convert(obj.Capitalisation.Capitalisations);
-      console.log(lab1);
-      console.log(val1);
-      md.initDashboardPageCharts([lab, val, lab1, val1]);
-      ;
-    }
-
-    ; 
-  </script>
-
-</body>
-
+<div class="section" id="interets">
+  <div class="h4 text-center mb-4 title">Centres d'intérêts</div>
+  <div class="cc-contact-information">
+    
+    <div class="container">
+      <div class="cc-contact" style="padding-top: 25px; padding-left: 0px;">
+        <div class="row">
+          
+              
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 15rem;">
+                  <img class="card-img-top" src="images/bodyboard.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center font-weight-bold">Bodyboard</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 27rem;">
+                  <img class="card-img-top" src="images/guitare.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center font-weight-bold">Guitare</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 15rem;">
+                  <img class="card-img-top" src="images/voyage.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center font-weight-bold">Voyage</p>
+                  </div>
+                </div>
+              </div>
+                
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="footer">
+      
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+    <script src="js/now-ui-kit.js?v=1.1.0"></script>
+    <script src="js/aos.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
