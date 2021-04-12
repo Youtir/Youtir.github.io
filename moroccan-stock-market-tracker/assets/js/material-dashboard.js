@@ -324,7 +324,7 @@ md = {
           tension: 0
         }),
         low: 0,
-        high: 150000000000, 
+        high: val1[0], 
         chartPadding: {
           top: 0,
           right: 0,
