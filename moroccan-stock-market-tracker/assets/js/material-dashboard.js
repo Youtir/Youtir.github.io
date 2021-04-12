@@ -380,7 +380,7 @@ md = {
           showGrid: true
         },
         low: 0,
-        high: 20000000,
+        high: val[0],
         chartPadding: {
           top: 30,
           right: 10,
